@@ -76,7 +76,7 @@ flask-sqlalchemy
     
     pip install -r req.txt
 
-
+Ссылка на пост ВК https://vk.com/python_for_me?w=wall-184890296_579%2Fall
 
 Михаил Терехов ака MikedoIT 2021
 
