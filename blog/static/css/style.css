@@ -1,0 +1,38 @@
+.main{
+    text-align: center;
+    color: green;
+}
+
+
+ul li{
+    list-style: none;
+    padding: 7px;
+}
+
+
+li:nth-child(even){
+    color: blue;
+}
+
+.paginate_link{
+    padding: 3px 14px;
+    background-color: lightgrey;
+    outline: 1px solid grey;
+    border-radius: 200px;
+    text-decoration: none;
+}
+
+
+.paginate_link:hover{
+    background-color: lightblue;
+    color: white;
+    outline: 1px solid green;
+}
+
+
+.push,
+.push:hover{
+    background-color: green;
+    color: white;
+}
+

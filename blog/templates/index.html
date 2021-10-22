@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+{% block content%}
+
+<ul>
+{% for post in posts.items %}
+    <li> {{ post.title }} - {{ post.content }}</li>
+{% endfor %}
+</ul>
+
+
+<div class="post_paginate">
+
+    {% for page in posts.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
+        {% if page %}
+            {% if posts.page == page %}
+                <a class="paginate_link push"> {{ page }}</a>
+            {% else %}
+                <a class="paginate_link" href="{{ url_for('main.paginate_posts', page=page)}}">{{ page }}</a>
+
+            {% endif %}
+        {% else %}
+           ...
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+
+{% endblock content%}
