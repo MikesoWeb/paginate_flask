@@ -78,7 +78,7 @@ flask-sqlalchemy
 
 
 
-Михаил Терехов ака MikedoIT 2020
+Михаил Терехов ака MikedoIT 2021
 
 
 
